@@ -1,10 +1,10 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
-  first_name: String,
-  last_name: String,
-  location: String,
+  name: String,
+  rating: String,
+  alternative_name: String,
 });
 
-mongoose.model('users', userSchema);
+mongoose.model("candidates", userSchema);

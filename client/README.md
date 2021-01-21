@@ -17,6 +17,7 @@ In the example we have provided you can see:
 3. What to display if your request to the API doesn't return any users
 
 ---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -87,3 +88,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Pseudo code:
+
+1. Create a function that takes the value of the id (look into on-click functions)
+2. Take that value and save as a variable (What happens when the user selects and answer)
+3. Repeat steps 1-2 for every question (make sure you check that the data is updating itself)
+4. Inside app.js, extract the values from each component and save them into a new object
+5. Add a console.log to empty object so you can see what youre doing
+6. Write a post request and send the object in the post request
