@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from "./logo.jpg";
+import axios from "axios";
 
 // SERVICES
-import userService from "./services/userService";
+//import userService from "./services/userService";
 import Gender from "./components/gender";
 import Ethnicity from "./components/ethnicity";
 import Height from "./components/height";
@@ -23,7 +24,12 @@ function App() {
   });
 
   const getUsers = async () => {
-    let res = await userService.getAll(gender, ethnicity, height);
+    
+    console.log( gender, ethnicity, height);
+    let res = await axios.get(`http://localhost:5000/api/candidates`, {params: {gender, ethnicity, height}});
+    console.log( res);
+  console.log(res.data);
+  
     setusers(res);
   };
 
@@ -39,7 +45,7 @@ function App() {
   //   );
   // };
 
-  console.log(gender);
+  console.log( gender);
   console.log(ethnicity);
   console.log(height);
   console.log(results);

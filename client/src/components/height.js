@@ -12,10 +12,10 @@ const Height = ({ setHeight, getUsers}) => {
       </h1>
       <label for="height">I am looking for...</label>
       <select onClick={(e) => myRequest(e)} name="height">
-        <option value='5"3'>Below 5"3</option>
-        <option value='5"6'>5"3 - 5"6</option>
-        <option value='5"11'>5"7 - 5"11</option>
-        <option value='7"0'>6" and over</option>
+        <option value="5'3">Below 5"3</option>
+        <option value="5'6">5"3 - 5"6</option>
+        <option value="5'11">5"7 - 5"11</option>
+        <option value="7'0">6" and over</option>
       </select>
 
       <br />

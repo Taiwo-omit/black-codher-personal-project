@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Results = ({ candidates }) => {
-  console.log(candidates);
+  console.log("hello",candidates);
  
 const answer = []
 //   const answer = candidates.find(

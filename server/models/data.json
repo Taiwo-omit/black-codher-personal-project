@@ -7,9 +7,7 @@
         "location": "Texas",
         "gender": "female",
         "ethnicity": "black",
-        "height": "5'6",
-        "weight": "65kg",
-        "image": "https://pyxis.nymag.com/v1/imgs/2c8/c8d/6eb151365547d1eee0bb8f5cb0f7bc332c-06-beyonce.rsquare.w1200.jpg"
+        "height": "5'6"
     },
     {
         "name": "Bruno Mars",
