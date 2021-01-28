@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import axios from "axios";
 
 const getUsers = async (gender, ethnicity, height) => {
@@ -8,14 +8,25 @@ const getUsers = async (gender, ethnicity, height) => {
   });
   console.log(res);
   console.log(res.data);
-return res.data
+return res.data;
 };
 
 const Results = (props) => {
+  const [candidates, setCandidates] = useState("");
   console.log(props);
- console.log(props.gender, props.ethnicity, props.height)
- const candidates = getUsers(props.gender, props.ethnicity, props.height)
-  console.log(candidates)
+ console.log(props.gender, props.ethnicity, props.height);
+
+ const getCandidates = async () => {
+   const temp = await getUsers(props.gender, props.ethnicity, props.height);
+  console.log(temp);
+  setCandidates(temp)
+ }
+ useEffect(() => {
+  if (!candidates) {
+    getCandidates();
+  }
+});
+
   
 
   // Nested Destructuring
