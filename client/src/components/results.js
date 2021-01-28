@@ -11,11 +11,11 @@ const getUsers = async (gender, ethnicity, height) => {
 return res.data
 };
 
-const Results = ({ gender, ethnicity, height }) => {
- // console.log(candidates);
- 
- const candidates = getUsers(gender, ethnicity, height)
-  
+const Results = (props) => {
+  console.log(props);
+ console.log(props.gender, props.ethnicity, props.height)
+ const candidates = getUsers(props.gender, props.ethnicity, props.height)
+  console.log(candidates)
   
 
   // Nested Destructuring
@@ -24,8 +24,9 @@ const Results = ({ gender, ethnicity, height }) => {
       {!candidates ? (
         <h2>No Results</h2>
       ) : (
-        candidates.map((result) => (
-          <div className="image">
+        candidates.map((result) => {
+          return (
+            <div className="image">
             <img
               src={result.image}
               alt={result.name}
@@ -38,7 +39,9 @@ const Results = ({ gender, ethnicity, height }) => {
               {result.location ? result.location.substring(0, 30) : "Location Unknown"}
             </p>
           </div>
-        ))
+          )
+        }
+        )
       )}
     </>
   );

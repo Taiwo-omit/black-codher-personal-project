@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Height = ({ setHeight, getUsers}) => {
+const Height = ({ setHeight}) => {
   function myRequest(event) {
     setHeight(event.target.value);
   }
@@ -25,7 +25,7 @@ const Height = ({ setHeight, getUsers}) => {
           <button id="back">back</button>
         </Link>
         <Link to="/Results">(
-          <button id="finish" onClick={()=>getUsers()}>Show Results</button>
+          <button id="finish">Show Results</button>
         </Link>
       </div>
     </div>

@@ -17,6 +17,7 @@ function App() {
   const [height, setHeight] = useState("");
   const [results, setResults] = useState("");
 
+console.log("hey");
 
   console.log(gender);
   console.log(ethnicity);
@@ -66,7 +67,8 @@ function App() {
           path="/Results"
           render={() => (
             <>
-              <Results gender="female" ethnicity="black" height="5'7" />
+              <Results gender={gender} ethnicity={ethnicity} height={height}
+ />
             </>
           )}
         />
