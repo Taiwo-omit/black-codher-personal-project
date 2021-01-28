@@ -1,20 +1,22 @@
 import React, { useState } from "react";
+import axios from "axios";
 
-const Results = ({ candidates }) => {
-  console.log("hello",candidates);
+const getUsers = async (gender, ethnicity, height) => {
+  console.log(gender, ethnicity, height);
+  let res = await axios.get(`http://localhost:5000/api/candidates`, {
+    params: { gender, ethnicity, height },
+  });
+  console.log(res);
+  console.log(res.data);
+return res.data
+};
+
+const Results = ({ gender, ethnicity, height }) => {
+ // console.log(candidates);
  
-const answer = []
-//   const answer = candidates.find(
-//     {
-//       $and: [{ gender: gender }, { ethnicity: ethnicity }, { height: height }],
-//     },
-//     { image: 1, name: 1, age: 1, location: 1 }
-//   );
-
-//   const Results = ({ setResults }) => {
-//       function myRequest(event) {
-//         setResults(event.target.value);
-//       }
+ const candidates = getUsers(gender, ethnicity, height)
+  
+  
 
   // Nested Destructuring
   return (
@@ -41,4 +43,6 @@ const answer = []
     </>
   );
 };
-export default Results
+
+
+export default Results;

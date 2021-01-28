@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from "./logo.jpg";
-import axios from "axios";
+
 
 // SERVICES
 //import userService from "./services/userService";
@@ -11,41 +11,14 @@ import Height from "./components/height";
 import Results from "./components/results";
 
 function App() {
-  const [candidates, setusers] = useState([]);
+  const [candidates, setCandidates] = useState([]);
   const [gender, setGender] = useState("");
   const [ethnicity, setEthnicity] = useState("");
   const [height, setHeight] = useState("");
   const [results, setResults] = useState("");
 
-  useEffect(() => {
-    if (!candidates) {
-      getUsers();
-    }
-  });
 
-  const getUsers = async () => {
-    
-    console.log( gender, ethnicity, height);
-    let res = await axios.get(`http://localhost:5000/api/candidates`, {params: {gender, ethnicity, height}});
-    console.log( res);
-  console.log(res.data);
-  
-    setusers(res);
-  };
-
-  // const renderUser = (user) => {
-  //   return (
-  //     <li key={user._id}>
-  //       <h3>
-  //         {`${user.name}
-  //         ${user.rating}`}
-  //       </h3>
-  //       <p>{user.alternative_name}</p>
-  //     </li>
-  //   );
-  // };
-
-  console.log( gender);
+  console.log(gender);
   console.log(ethnicity);
   console.log(height);
   console.log(results);
@@ -84,8 +57,7 @@ function App() {
           path="/Height"
           render={() => (
             <>
-              <Height setHeight={setHeight} getUsers={getUsers} />
-              
+              <Height setHeight={setHeight} />
             </>
           )}
         />
@@ -94,7 +66,7 @@ function App() {
           path="/Results"
           render={() => (
             <>
-              <Results candidates={candidates} />
+              <Results gender="female" ethnicity="black" height="5'7" />
             </>
           )}
         />
@@ -102,19 +74,5 @@ function App() {
     </>
   );
 }
-
-
-
-// return (
-//   <div>
-//     <ul>
-//       {users && users.length > 0 ? (
-//         users.map((user) => renderUser(user))
-//       ) : (
-//         <p>No users found</p>
-//       )}
-//     </ul>
-//   </div>
-// );
 
 export default App;
