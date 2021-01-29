@@ -1,21 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Weight = (props) => {
+const Gender = ({ setGender }) => {
+  function myRequest(event) {
+    setGender(event.target.value);
+  }
   return (
     <div>
       <h1>
         <b>WEIGHT</b>
       </h1>
       <h3>I am looking for...</h3>
-      <h4>40kg - 50kg</h4>
-      <h4>51kg - 60kg</h4>
+      <h4>50kg - 60kg</h4>
       <h4>61kg - 70kg</h4>
       <h4>71kg - 80kg</h4>
-      <h4>81kg - 90kg</h4>
-      <br></br>
-      <button>back</button>
-      <button>skip</button>
-      <button>show results</button>
+
+      <br/>
+
+     {/* <div>
+        <Link to="/Ethnicity">
+          <button id="back">back</button>
+        </Link>
+        <Link to="/Results">
+          (<button id="finish">Show Results</button>
+        </Link>
+      </div> */}
     </div>
   );
 };
