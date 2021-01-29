@@ -7,7 +7,9 @@
         "location": "Texas",
         "gender": "female",
         "ethnicity": "black",
-        "height": "5'7"
+        "height": "5'7",
+        "weight": "60kg",
+        "image": "https://media.vogue.co.uk/photos/5efcdcadbe6fa7ee763b8c9b/master/pass/Beyonce-vogue-010720-credit-Getty-Images.jpg"
     },
     {
         "name": "Bruno Mars",
@@ -52,7 +54,7 @@
         "instagram": "@brendasong",
         "location": "California",
         "gender": "female",
-        "ethnicity": "asain",
+        "ethnicity": "asian",
         "height": "5'2",
         "weight": "50kg",
         "image": "https://m.media-amazon.com/images/M/MV5BZGZiN2YxMDMtNDJiOS00ZWMyLWJhZTYtZjQxMjY5MTk2MGM0XkEyXkFqcGdeQXVyMTg4MDE2NDI@._V1_.jpg"
@@ -112,7 +114,7 @@
         "instagram": "@zayn",
         "location": "England",
         "gender": "male",
-        "ethnicity": "asain",
+        "ethnicity": "asian",
         "height": "5'7",
         "weight": "66kg",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Zayn_Wiki_%28cropped%29.jpg/220px-Zayn_Wiki_%28cropped%29.jpg"
@@ -166,6 +168,198 @@
         "image": "https://findcelebritywiki.com/images/profile/1587614933_1_Jason%20Derulo%203.jpg"    
     },
     {
+        "name": "Jane Morgan",
+        "age": "16",
+        "email": "morgan.jane@yahoo.co.uk",
+        "instagram": "@iamjane",
+        "location": "Chicago",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "5'3",
+        "weight": "59kg",
+        "image": "https://sm.askmen.com/askmen_in/article/t/tips-for-d/tips-for-dating-a-latina_dxwk.jpg"    
+    },
+    {
+        "name": "Toby",
+        "age": "30",
+        "email": "toby@gmail.co.uk",
+        "instagram": "@toby",
+        "location": "England",
+        "gender": "male",
+        "ethnicity": "white",
+        "height": "5'11",
+        "weight": "59kg",
+        "image": "https://fashionweekdaily.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-07-at-11.40.02-PM.png"
+    },
+    {
+        "name": "Reece",
+        "age": "26",
+        "email": "reece@gmail.co.uk",
+        "instagram": "@reece",
+        "location": "France",
+        "gender": "male",
+        "ethnicity": "white",
+        "height": "6'6",
+        "weight": "69kg",
+        "image": "https://i.mdel.net/rankings/Top50M/i/1220887800w.jpg"
+    },
+    {
+        "name": "jacob",
+        "age": "18",
+        "email": "jacob@gmail.co.uk",
+        "instagram": "@jacob",
+        "location": "Germany",
+        "gender": "male",
+        "ethnicity": "white",
+        "height": "5'2",
+        "weight": "75kg",
+        "image": "https://assets.vogue.com/photos/5876fe0a8a28e998768824d3/4:3/w_795,h_597,c_limit/david-gandy.jpg"
+    },
+    {
+        "name": "Mark",
+        "age": "23",
+        "email": "mark@gmail.co.uk",
+        "instagram": "@mark",
+        "location": "New Zealand",
+        "gender": "male",
+        "ethnicity": "white",
+        "height": "5'3",
+        "weight": "58kg",
+        "image": "https://static.livebooks.com/d83c385466b046478be0d0cf58471552/i/e28543e76cf84a27a6fd21221cd20834/1/4SoifmQp45JMgBnHp7ed2/Screen%20Shot%202019-07-16%20at%2012.16.25%20PM.jpg"
+    },
+    {
+        "name": "Jay",
+        "age": "21",
+        "email": "jay@yahoo.co.uk",
+        "instagram": "@jay",
+        "location": "China",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "5'3",
+        "weight": "60kg",
+        "image": "https://www.fashiongonerogue.com/wp-content/uploads/2014/05/liu-wen-oval.jpg"
+    },
+    {
+        "name": "lea",
+        "age": "24",
+        "email": "lea@yahoo.co.uk",
+        "instagram": "@lea",
+        "location": "Japan",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "5'4",
+        "weight": "70kg",
+        "image": "https://i.pinimg.com/736x/ef/9d/80/ef9d800e07a159dec21bd4bdf45d9a6d.jpg"
+    },
+    {
+        "name": "catherine",
+        "age": "28",
+        "email": "catherine@yahoo.co.uk",
+        "instagram": "@catherine",
+        "location": "Paris",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "5'6",
+        "weight": "56kg",
+        "image": "https://c4.wallpaperflare.com/wallpaper/304/829/176/asian-female-girl-model-wallpaper-preview.jpg"
+    },
+    {
+        "name": "eliza",
+        "age": "30",
+        "email": "eliza@yahoo.co.uk",
+        "instagram": "@eliza",
+        "location": "Belgium",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "5'8",
+        "weight": "66kg",
+        "image": "https://i.pinimg.com/564x/f3/16/ed/f316ed57c851036500a0a1722c7f4cc6.jpg"
+    },
+    {
+        "name": "louise",
+        "age": "34",
+        "email": "louise@yahoo.co.uk",
+        "instagram": "@louise",
+        "location": "Manchester",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "5'10",
+        "weight": "76kg",
+        "image": "https://cache.desktopnexus.com/thumbseg/2324/2324476-bigthumbnail.jpg"
+    },
+    {
+        "name": "Becky Sims",
+        "age": "35",
+        "email": "miss.simsb@yahoo.co.uk",
+        "instagram": "@beckysims",
+        "location": "Brazil",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "5'1",
+        "weight": "72kg",
+        "image": "https://www.loveme.com/images/p157688-1.jpg"    
+    },
+    {
+        "name": "Lucy",
+        "age": "31",
+        "email": "lucy@yahoo.co.uk",
+        "instagram": "@lucyb",
+        "location": "Argentina",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "5'10",
+        "weight": "57kg",
+        "image": "https://d18ufwot1963hr.cloudfront.net/wp-content/uploads/2019/02/14162856/afro-latino-trailblazers-7.png"    
+    },
+    {
+        "name": "Maria",
+        "age": "40",
+        "email": "maria@yahoo.com",
+        "instagram": "@maria",
+        "location": "Mexico",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "5'8",
+        "weight": "64kg",
+        "image": "https://shorthaircutsmodels.com/wp-content/uploads/2020/03/Short-haircuts-for-latina-women-11.jpg"    
+    },
+    {
+        "name": "Priscilla",
+        "age": "15",
+        "email": "itsp@gmail.co.uk",
+        "instagram": "@priscilla",
+        "location": "Texas",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "5'11",
+        "weight": "57kg",
+        "image": "https://i.pinimg.com/236x/64/76/98/64769862c36d4aabb7ad458a42dc2287--female-faces-black-girls.jpg"    
+    },
+    {
+        "name": "Toni Lee",
+        "age": "21",
+        "email": "tonilee@yahoo.co.uk",
+        "instagram": "@tonilee",
+        "location": "New York",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "6'0",
+        "weight": "64kg",
+        "image": "https://i.quotev.com/img/q/u/18/10/27/chmzsc4jxm.jpg"    
+    },
+    {
+        "name": "Laura James",
+        "age": "34",
+        "email": "laurajames@yahoo.co.uk",
+        "instagram": "@laurajames",
+        "location": "Ireland",
+        "gender": "female",
+        "ethnicity": "latino",
+        "height": "6'1",
+        "weight": "71kg",
+        "image": "https://i.pinimg.com/564x/ef/29/36/ef2936db4d4ef713e4be06e2611e11e3.jpg"    
+    },
+    {
         "name": "Megan Thee Stallion",
         "age": "25",
         "email": "megtheestallion@yahoo.co.uk",
@@ -175,7 +369,7 @@
         "ethnicity": "black",
         "height": "6'1",
         "weight": "64kg",
-        "image": "https://www.nme.com/wp-content/uploads/2020/11/megan-Thee-Stallion-credit-Orin-Fleurmont@2160%E2%80%8A%C3%97%E2%80%8A2700.jpg"    
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOT3nCeqnOsZ-i8j00cvegBkrMMRHp0XjERQ&usqp=CAU"    
     },
     {
         "name": "Tyra Banks",
@@ -190,6 +384,42 @@
         "image": "https://www.google.co.uk/url?sa=i&url=https%3A%2F%2Fhollywoodmask.com%2Fentertainment%2Ftyra-banks-weight-gain-pregnant-baby-daddy-makeup-measurements-daughter.html&psig=AOvVaw0pH-H-Aw0GkUse661wdqwT&ust=1608322238226000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKikvr7p1e0CFQAAAAAdAAAAABAE"    
     },
     {
+        "name": "Sue",
+        "age": "30",
+        "email": "Sue@yahoo.co.uk",
+        "instagram": "@sue",
+        "location": "San Francisco",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "5'11",
+        "weight": "57kg",
+        "image": "https://media.womensweekly.com.sg/public/2019/03/Asian-bob-short-hair-styles-asian-short-hair-styles-kdrama-hairstyles-Pinterest6-768x768.jpg"
+    },
+    {
+        "name": "susan",
+        "age": "18",
+        "email": "susan@yahoo.co.uk",
+        "instagram": "@susan",
+        "location": "New York",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "6'4",
+        "weight": "67kg",
+        "image": "https://i0.wp.com/undercuthair.com/wp-content/uploads/2020/06/short-haircuts-for-asian-women-12-short-haircuts-models-korean-short-hairstyle-female-2020_0.jpg"
+    },
+    {
+        "name": "Mary",
+        "age": "29",
+        "email": "mary@yahoo.co.uk",
+        "instagram": "@mary",
+        "location": "Hong Kong",
+        "gender": "female",
+        "ethnicity": "asian",
+        "height": "6'1",
+        "weight": "77kg",
+        "image": "https://www.designhome.ae/wp-content/uploads/2015/01/Tao-Okamoto-design-home-best-asian-models.jpg"
+    },
+    {
         "name": "Kevin Hart",
         "age": "41",
         "email": "kevin@yahoo.com",
@@ -202,16 +432,100 @@
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hart-gettyimages-1062194608mod-1544461779.jpg"
     },
     {
-        "name": "Rihanna",
-        "age": "25",
-        "email": "riri@gmail.com",
-        "instagram": "@badgalriri",
-        "location": "Barbados",
+        "name": "Sally Thomas",
+        "age": "32",
+        "email": "s.thomas@gmail.com",
+        "instagram": "@sally.thomas",
+        "location": "London",
         "gender": "female",
         "ethnicity": "black",
-        "height": "5'2",
+        "height": "5'1",
+        "weight": "55kg",
+        "image": "https://www.google.co.uk/url?sa=i&url=https%3A%2F%2Fwww.prevention.com%2Fhealth%2Fmental-health%2Fa33686468%2Fblack-women-mental-health-crisis%2F&psig=AOvVaw3E6GUOtxaTJaqtNb5ctmnV&ust=1611968170503000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJipscv3v-4CFQAAAAAdAAAAABAD"    
+    },
+    {
+        "name": "Rose James",
+        "age": "18",
+        "email": "rose@gyahoo.com",
+        "instagram": "@rosie",
+        "location": "Birmingham",
+        "gender": "female",
+        "ethnicity": "black",
+        "height": "4'11",
+        "weight": "71kg",
+        "image": "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1550095004095-JK2PPIZ6K6P4XAQI171J/ke17ZwdGBToddI8pDm48kDu19ZQ_w9wAMJI6dbWnlCR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmmV5_8-bAHr7cY_ioNsJS_61TwOmkAvvlADGd1IlbhMogFKngaLShotgJgXNsogyy/Black+Women+in+Wellness+-+Kimberly+Fe%27Lix"    
+    },
+    {
+        "name": "Summer",
+        "age": "40",
+        "email": "summer@yahoo.co.uk",
+        "instagram": "@summer",
+        "location": "New York",
+        "gender": "female",
+        "ethnicity": "black",
+        "height": "5'11",
+        "weight": "57kg",
+        "image": "https://i.guim.co.uk/img/media/9963e287d43579751a071088355684cdb03517b2/0_1030_3329_1997/master/3329.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=585f997507733e9812ba037684c2e802"    
+    },
+    {
+        "name": "Jessie",
+        "age": "23",
+        "email": "jessie@yahoo.com",
+        "instagram": "@iamjessie",
+        "location": "Spain",
+        "gender": "female",
+        "ethnicity": "black",
+        "height": "6'2",
+        "weight": "62kg",
+        "image": "https://ichef.bbci.co.uk/images/ic/320xn/p074mmrq.jpg"    
+    },
+    {
+        "name": "Melanie",
+        "age": "30",
+        "email": "melanie@gmail.com",
+        "instagram": "@melanie",
+        "location": "Virginia",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "5'11",
+        "weight": "52g",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEc0DNEClq8OxD04van-iuQjjg6Ts5U9sFQ&usqp=CAU"
+    },
+    {
+        "name": "Vanessa Wild",
+        "age": "23",
+        "email": "vanessa wild@gmail.com",
+        "instagram": "@vanessawild",
+        "location": "Norway",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "6'1",
+        "weight": "62kg",
+        "image": "https://www.face-agency.co.uk/images/uploads/models/large/1565598052-21.jpg"
+    },
+    {
+        "name": "Jill Green",
+        "age": "19",
+        "email": "jill.green@gmail.com",
+        "instagram": "@j.green",
+        "location": "Italy",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "6'2",
+        "weight": "72kg",
+        "image": "https://res.cloudinary.com/bulgari/image/upload/dpr_auto,f_auto,q_auto/v1/homepage/Cny-Vd/640x640_stl_jpdfqu"
+    },
+    {
+        "name": "Hannah Davies",
+        "age": "28",
+        "email": "h.d@gmail.com",
+        "instagram": "@hannahdavies",
+        "location": "Paris",
+        "gender": "female",
+        "ethnicity": "black",
+        "height": "5'8",
         "weight": "61kg",
-        "image": "https://pyxis.nymag.com/v1/imgs/bcc/9e2/bfb3aad8c9803c8de47f298712ce8f80c0-rihanna.rsquare.w1200.jpg"    
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rachel-1572988081.png"    
     },
     {
         "name": "Billie Eilish",
@@ -224,5 +538,65 @@
         "height": "5'3",
         "weight": "61kg",
         "image": "https://www.redbrick.me/wp-content/uploads/2020/02/billie-eilish.jpg"
+    },
+    {
+        "name": "Betty Smith",
+        "age": "22",
+        "email": "b.smith@yahoo.co.uk",
+        "instagram": "@bettysmith",
+        "location": "London",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "5'5",
+        "weight": "51kg",
+        "image": "https://i.pinimg.com/736x/37/eb/09/37eb0927b823513812904bb08b634c57.jpg"
+    },
+      {
+        "name": "Tori",
+        "age": "29",
+        "email": "tori@yahoo.co.uk",
+        "instagram": "@tori",
+        "location": "Russia",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "4'11",
+        "weight": "79kg",
+        "image": "https://i.pinimg.com/originals/49/35/40/4935401373de72a16dcbc72a6e55d32e.jpg"
+    },
+     {
+        "name": "Victoria",
+        "age": "33",
+        "email": "victoria@yahoo.co.uk",
+        "instagram": "@vicky",
+        "location": "London",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "5'9",
+        "weight": "60kg",
+        "image": "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjB3b21hbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+    },
+      {
+        "name": "Jordan",
+        "age": "37",
+        "email": "jordan@yahoo.co.uk",
+        "instagram": "@jordan",
+        "location": "Virginia",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "5'10",
+        "weight": "70kg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmNh6jInwQO9RRXJPO4kqYvHAvl3YG5KQ6ig&usqp=CAU"
+    },
+      {
+        "name": "Tanya",
+        "age": "35",
+        "email": "tanya@yahoo.co.uk",
+        "instagram": "@tanya",
+        "location": "Birmingham",
+        "gender": "female",
+        "ethnicity": "white",
+        "height": "5'7",
+        "weight": "80kg",
+        "image": "https://c6oxm85c.cloudimg.io/cdno/n/q85/https://az617363.vo.msecnd.net/imgmodels/models/MD10004671/addie9a95b473c5c45d66606f75562fd14d3c_thumb.jpg"
     }
 ]
